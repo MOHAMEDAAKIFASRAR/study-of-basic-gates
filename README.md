@@ -1,4 +1,8 @@
-### study-of-basic-gates
+## NAME:MOHAMED AAKIF ASRAR.S
+## REGISTER NUMBER:212223240088
+
+
+### EXP NO: 01-study-of-basic-gates
 
 **AIM:** 
 
@@ -66,14 +70,34 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by:Mohamed Aakif Asrar.S
+ RegisterNumber:212223240088
+
+ ~~~
+module logic gates ( a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and (y1,a,b);
+or (y2,a,b);
+not (y3,a);
+xor (y4,a,b);
+nand (y5,a,b);
+nor (y6,a,b);
+xnor ( y7,a,b);
+endmodule
+~~~
  
-**Logic symbol & Truthtable**
+**Truthtable**
+![aju truth table](https://github.com/MOHAMEDAAKIFASRAR/study-of-basic-gates/assets/148514683/38df2a1b-6c67-4a44-916e-60e156568756)
 
-**RTL realization Output:** 
 
-**RTL**
+**RTL realization:** 
+![aju de](https://github.com/MOHAMEDAAKIFASRAR/study-of-basic-gates/assets/148514683/52458746-8fa7-4908-b4ad-51cb49f9fe17)
+
+## Timing Line:
+![wave form](https://github.com/MOHAMEDAAKIFASRAR/study-of-basic-gates/assets/148514683/70bec7da-7823-4016-957b-4f9a8ae11120)
+
 
 **Result:**
-
+Thus the different digital IC's are studied and the truth table for different logic gates are verified.
 
